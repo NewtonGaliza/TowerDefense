@@ -6,7 +6,7 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager main;
     public Transform[] path;
-    [SerializeField] private Transform startPoint;
+    public Transform startPoint;
 
     private void Awake() 
     {
