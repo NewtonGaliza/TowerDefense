@@ -2679,7 +2679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492135072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.13, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4010,7 +4010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Test Turret
+  m_text: Slowmo Turret
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7751,7 +7751,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528160544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.14, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10086,7 +10086,7 @@ GameObject:
   - component: {fileID: 1948760708}
   - component: {fileID: 1948760707}
   m_Layer: 5
-  m_Name: TestTurret
+  m_Name: SlowmoTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10463,9 +10463,9 @@ MonoBehaviour:
   - name: Basic Tower
     cost: 100
     prefab: {fileID: 4732120327890472081, guid: cc0eaece37fb11343b7db2808ab024a1, type: 3}
-  - name: Test Turret
-    cost: 150
-    prefab: {fileID: 4732120327890472081, guid: a41c4fda81eeb244981fbd8d240e8d90, type: 3}
+  - name: Slowmo Tower
+    cost: 200
+    prefab: {fileID: 6512018937778882513, guid: 27f22a34862789e4d9a33f44f27e6d88, type: 3}
 --- !u!1001 &2006903035
 PrefabInstance:
   m_ObjectHideFlags: 0
